@@ -50,6 +50,9 @@ body{
     text-align: center;
     text-shadow: 3px 2px rgb(74, 74, 74);
   }
+  .login-header img{
+    width: 500px;
+  }
   
   .login__input {
     border: 2px solid #333;
@@ -61,6 +64,7 @@ body{
     outline: none;
     padding: 15px;
     width: 100%;
+    margin-top: 10px;
   }
   
   .login__button {
