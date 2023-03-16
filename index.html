@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imgs/favicon-32x32.png" type="image/x-icon">
     <link rel="fonts" href="fonts/Saiyan-Sans.ttf">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <script src="./js/login.js" defer></script>
     <title>Dragon Ball Memory Game</title>
 </head>
 <body>
-   <section>
-        <h1>DRAG<span>O</span>N BALL</h1>
-        <H1>Memory</H1>
-        <div class="card-login">
-            <label for="botao">Digite Seu Nome →</label>
-            <input type="text" placeholder="name" class="name-input" name="botao">
-        </div>
-        
-   </section>
+  <form class="login-form">
+    <div class="login-header">
+        <img src="./imgs/dragon.png" alt="logo_texto" srcset="">
+        <h1> Memory Game </h1>
+    </div>
+    <input type="text" placeholder="Name" class="login__input">
+    <button type="submit" class="login__button" disabled>Play</button>
+
+  </form>
 </body>
 </html>

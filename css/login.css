@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'Saiyan-Sans';
+    src: url(../fonts/Saiyan-Sans.ttf) format('TrueType')
+}
+
+@font-face {
+    font-family: 'play-on';
+    src: url(../fonts/Playon-reg.ttf) format('TrueType');
+}
+/* --------------reset--------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url(../imgs/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1300px;
+}
+
+/* ---------------------------- login -------------------------------- */
+.login-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+  }
+  .login__header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+    top: 50px;
+  }
+  
+  .login-header h1 {
+    font-size:80px;
+    font-family: 'saiyan-sans';
+    background: -webkit-linear-gradient(#ff6060, #fff708);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    text-shadow: 3px 2px rgb(74, 74, 74);
+  }
+  
+  .login__input {
+    border: 2px solid #333;
+    border-radius: 8px;
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 15px;
+    max-width: 300px;
+    outline: none;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  .login__button {
+    background: -webkit-linear-gradient(#e0e701,#9e0303);;
+    border: 3px solid #fd512a;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    max-width: 300px;
+    padding: 15px;
+    width: 100%;
+    font-family: 'play-on';
+  }
+  .login__button:disabled {
+    background: #eee;
+    border: 2px solid #969595;
+    color: #050505;
+    cursor: auto;
+    font-family: 'play-on';
+    font-size: 20px;
+
+  }
+/* 
+#login h1{
+    font-size: 150px;
+    font-family: 'saiyan-sans';
+    background: -webkit-linear-gradient(#ff6060, #9e0303);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 25px;
+}
+h2{
+    font-size: 130px;
+    font-family: 'play-on';
+    background: -webkit-linear-gradient(#e0e701,#9e0303);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    padding: 10px;
+    margin-left: 30%;
+}
+
+#login .card-login{
+    width: 500px;
+    height: 200px;
+    background: rgba(#000, #000, #001, .3);
+}
+.name-input{
+    margin-top: 15px;
+    margin-left: 550px;
+    font-size: 25px;
+    color: #494949;
+    max-width: 300px;
+}
+.button-play{
+    margin-top: 5px;
+    margin-left: 550px;
+    font-size: 30px;
+    background: -webkit-linear-gradient(#e0e701,#9e0303);
+    width: 300px;
+    font-family: 'play-on';
+    cursor: pointer;
+}
+.button-play:disabled{
+    background: grey;
+    color: white;
+    cursor: auto;
+}
+
+::-webkit-input-placeholder  { 
+    color: #494949;
+    padding-left: 5px;
+    text-align: center;
+ }
+input:-moz-placeholder { 
+    color: #494949;
+    padding-left: 5px;
+    text-align: center;
+ }
+textarea:-moz-placeholder { 
+    color: #494949;
+    padding-left: 5px;
+    text-align: center;
+ } */
