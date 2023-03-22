@@ -14,12 +14,11 @@
 .card{
     width: 100%;
     aspect-ratio: 3/4;
-    background-color: aquamarine;
     position: relative;
     transition: all 400ms ease;
     transform-style: preserve-3d;
 }
-.card:hover{
+.reveal-card{
     transform: rotateY(180deg);
 }
 .face{
@@ -31,7 +30,7 @@
     box-shadow: 2px 2px 4px rgb(115, 114, 114);
 }
 .front{
-    background-image: url(../imgs/babidi.jpg);
+
     transform: rotateY(180deg);
 }
 .back{
