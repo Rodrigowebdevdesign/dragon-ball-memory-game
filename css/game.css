@@ -4,10 +4,10 @@
 }
 .grid{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(6,1fr);
     gap: 15px;
     width: 100%;
-    max-width: 1000px;
+    max-width: 800px;
     margin: 10px auto;
 }
 
@@ -28,6 +28,7 @@
     background-position: center;
     background-size: cover;
     box-shadow: 2px 2px 4px rgb(115, 114, 114);
+    transition: all 1000ms ease;
 }
 .front{
 
@@ -37,4 +38,8 @@
     background-image: url(../imgs/fundo-card.jpg);
 
     backface-visibility: hidden;
+}
+.disable-card{
+    filter: saturate(0);
+    opacity: 0.5;
 }
