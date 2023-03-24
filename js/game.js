@@ -1,6 +1,8 @@
 let fistCard = ''
 let secondCard = ''
 const grid = document.querySelector('.grid');
+const spanPlayer = document.querySelector('.player');
+const timer = document.querySelector('.timer');
 
 const characters = [
     'babidi',
@@ -14,7 +16,9 @@ const characters = [
     'vegeta',
     'zarbon',
     'napa',
-    'broly'
+    'broly',
+    'Mestre_Kame',
+    'mrsatan'
 ];
 
 const createElement = (tag, className) =>{
@@ -24,8 +28,10 @@ const createElement = (tag, className) =>{
 }
 const checkEndGame = () =>{
     const disableCards = document.querySelectorAll('.disable-card');
-    if(disableCards.length == 24){
+    if(disableCards.length == 28){
         // fazer um window location para a pagina de vencedor!!
+         clearInterval(this.loop );
+         alert('parabens voce venceu!!');
     }
 }
 const checkCards = () =>{
@@ -88,4 +94,17 @@ const loadGame = () =>{
         grid.appendChild(card);
     });
 }
-loadGame()
+
+const startTimer = () =>{
+        this.loop = setInterval(() =>{
+        const currentTime = +timer.innerHTML;
+        timer.innerHTML = currentTime + 1;
+    },1000);
+}
+window.onload = () =>{
+
+    spanPlayer.innerHTML = localStorage.getItem('player');
+    startTimer();
+    loadGame();
+}
+
