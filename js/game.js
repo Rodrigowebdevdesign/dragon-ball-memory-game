@@ -17,8 +17,8 @@ const characters = [
     'zarbon',
     'napa',
     'broly',
-    'Mestre_kame',
-    'mrsatan',
+    'mestre',
+    'mrsatan'
 ];
 
 const createElement = (tag, className) =>{
