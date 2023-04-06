@@ -3,3 +3,4 @@ Este projeto é um jogo da memoria utilizando personagens do famoso desenho DRAG
 Este projeto foi criado exclusivamente para exercitar meus conhecimentos em tecnologias frontEnd
 
 
+![Animação](https://user-images.githubusercontent.com/124701967/230241045-b34e2bf0-424d-46c9-b96f-6d9a96a9f815.gif)
