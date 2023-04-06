@@ -17,7 +17,7 @@ const characters = [
     'zarbon',
     'napa',
     'broly',
-    'Mestre_Kame',
+    'Mestre',
     'mrsatan'
 ];
 
